@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello");
+   /*     System.out.println("Hello");
         String name="Florentina";
         System.out.println(name);
         int suma = 100+300;
@@ -25,7 +25,24 @@ public class Main {
         System.out.println(modul);
         float d = 5+ I - modul;
         System.out.println(d);
+*/
+        int x = 3;
+        int y = 5;
 
+        int z = multiplication(x,y);
+        float b = division(x,y);
+        System.out.println(z);
+        System.out.println(b);
     }
 
+
+    public static int multiplication(int first, int second) {
+        int result = first * second;
+        return result;
+    }
+    public static float division (float first, float second) {
+        float result = first / second;
+        return result;
+    }
 }
+

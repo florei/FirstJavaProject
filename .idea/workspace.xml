@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7492e96b-e34b-4c55-a15b-31220c8e94dd" name="Changes" comment="ceva">
+    <list default="true" id="7492e96b-e34b-4c55-a15b-31220c8e94dd" name="Changes" comment="Curs 10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -69,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665081633206</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello&quot;);&#10;        String name=&quot;Florentina&quot;;&#10;        System.out.println(name);&#10;        int suma = 100+300;&#10;        System.out.println(suma);&#10;        int x = 10;&#10;        float y = 8;&#10;        float impartire = x/y;&#10;        System.out.println(impartire);&#10;        int a = -5+ (8*6);&#10;        System.out.println(a);&#10;        float b = (55+9) % 9;&#10;        System.out.println(b);&#10;        int z = x + 10;&#10;        float w = (-3*5)/y;&#10;        float adunare = z+w;&#10;        System.out.println(adunare);">
+      <created>1665341717378</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665341717378</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,6 +92,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ceva" />
-    <option name="LAST_COMMIT_MESSAGE" value="ceva" />
+    <MESSAGE value="public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello&quot;);&#10;        String name=&quot;Florentina&quot;;&#10;        System.out.println(name);&#10;        int suma = 100+300;&#10;        System.out.println(suma);&#10;        int x = 10;&#10;        float y = 8;&#10;        float impartire = x/y;&#10;        System.out.println(impartire);&#10;        int a = -5+ (8*6);&#10;        System.out.println(a);&#10;        float b = (55+9) % 9;&#10;        System.out.println(b);&#10;        int z = x + 10;&#10;        float w = (-3*5)/y;&#10;        float adunare = z+w;&#10;        System.out.println(adunare);" />
+    <MESSAGE value="Curs 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Curs 10" />
   </component>
 </project>
