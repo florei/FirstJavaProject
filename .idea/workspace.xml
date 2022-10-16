@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7492e96b-e34b-4c55-a15b-31220c8e94dd" name="Changes" comment="Curs 10">
+    <list default="true" id="7492e96b-e34b-4c55-a15b-31220c8e94dd" name="Changes" comment="Tema 10.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,7 +26,9 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2FlwMFsb6UzMc4TTggF3AZMMkHO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -76,7 +84,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665341717378</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lab 10">
+      <created>1665425088898</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665425088898</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Tema 10.1">
+      <created>1665950117566</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665950117566</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +116,8 @@
     <MESSAGE value="ceva" />
     <MESSAGE value="public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello&quot;);&#10;        String name=&quot;Florentina&quot;;&#10;        System.out.println(name);&#10;        int suma = 100+300;&#10;        System.out.println(suma);&#10;        int x = 10;&#10;        float y = 8;&#10;        float impartire = x/y;&#10;        System.out.println(impartire);&#10;        int a = -5+ (8*6);&#10;        System.out.println(a);&#10;        float b = (55+9) % 9;&#10;        System.out.println(b);&#10;        int z = x + 10;&#10;        float w = (-3*5)/y;&#10;        float adunare = z+w;&#10;        System.out.println(adunare);" />
     <MESSAGE value="Curs 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Curs 10" />
+    <MESSAGE value="Lab 10" />
+    <MESSAGE value="Tema 10.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tema 10.1" />
   </component>
 </project>
