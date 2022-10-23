@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        printMyname();
+       /* printMyname();
 
         System.out.println("Exercitii Laborator 9");
 
@@ -60,89 +60,104 @@ float adun = operatii.adunare(f1,s1);
 
         System.out.println("Exercitiul 2");
 
-        System.out.println("Rezultatul adunarii este:" + sumaDouaNumere(5,6));
-        System.out.println("Rezultatul scaderii este:" + diferentaDouaNumere(6,10));
-        System.out.println("Rezultatul inmultirii este:" + inmultireDouaNumere(6,20));
-        System.out.println("Rezultatul impartirii este:" + impartireDouaNumere(305, 105f));
+        System.out.println("Rezultatul adunarii este:" + operatii.sumaDouaNumere(5,6));
+        System.out.println("Rezultatul scaderii este:" + operatii.diferentaDouaNumere(6,10));
+        System.out.println("Rezultatul inmultirii este:" + operatii.inmultireDouaNumere(6,20));
+        System.out.println("Rezultatul impartirii este:" + operatii.impartireDouaNumere(305, 105f));
 
         System.out.println("Exercitiul 3"); //nu stiu sa aliniez desenul ca in imagine
 
                System.out.println  ( "J     a  v      v   a\n" +
                                      "J    a a  v    v   a a\n" +
-                              "J   J   aaaaa   v v   aaaaa\n" +
-                                     "JJ   a      a   v  a      a");
+                                 "J   J   aaaaa   v v   aaaaa\n" +
+                                  "JJ   a      a   v  a      a");
         System.out.println("Exercitiul 4");
-        System.out.println("Media este:" + media (5,8,10));
+        System.out.println("Media este:" + operatii.media (5,8,10));
 
         System.out.println("Exercitiul 6");
-        System.out.println("Restul impartirii a doua numere:" + restul(25.0, 12));
+        System.out.println("Restul impartirii a doua numere:" + operatii.restul(25.0, 12));
         System.out.println("Exercitiul 7");
-        System.out.println("Temperatura in Celsius este:" + F_C(212));
+        System.out.println("Temperatura in Celsius este:" + operatii.F_C(212));
         System.out.println("Exercitiul 8");
-        System.out.println("Distanta din Inch in Metrii este:" + InchtoMeter (300));
+        System.out.println("Distanta din Inch in Metrii este:" + operatii.InchtoMeter (300));
         System.out.println("Exercitiul 9");
-        System.out.println("Viteza in m/s este:" + DistMetri(25000) / TimpSecunde(2, 45, 6));
-        System.out.println("Viteza in km/h este:" + DistKilometrii(25000) / (TimpSecunde(2, 45, 6)/3600));
-        System.out.println("Viteza in mila/h este:" + DistMile(25000) / (TimpSecunde(2, 45, 6)/3600));
+        System.out.println("Viteza in m/s este:" + operatii.DistMetri(25000) / operatii.TimpSecunde(2, 45, 6));
+        System.out.println("Viteza in km/h este:" + operatii.DistKilometrii(25000) / (operatii.TimpSecunde(2, 45, 6)/3600));
+        System.out.println("Viteza in mila/h este:" + operatii.DistMile(25000) / (operatii.TimpSecunde(2, 45, 6)/3600));
 
     }
 
   public static void printMyname() {
     System.out.println("Hello\nFlorentina");
-  }
+  }*/
+        // Laborator 11 exercitiu 3
+        LogicalOp op = new LogicalOp();
+        int biggest = op.checkBiggerNumber(6, 10);
+        System.out.println("The bigger number is:" + biggest);
 
+        // Laborator 11 exercitiu 4
+        String first = "FastTrackIT";
+        String second = "FastTrackIT";
+        System.out.println(op.comparison(first));
 
-    public static int sumaDouaNumere (int primul, int aldoilea ){
-        int rez = primul +aldoilea;
-        return rez;
-    }
-    public static int diferentaDouaNumere (int primul, int aldoilea ){
-        int rez = primul - aldoilea;
-        return rez;
-    }
-    public static int inmultireDouaNumere (int primul, int aldoilea ){
-        int rez = primul * aldoilea;
-        return rez;
-    }
-    public static float impartireDouaNumere (int primul, float aldoilea ){
-        float rez = primul * aldoilea;
-        return rez;
-    }
-    public static double media (float primul, float aldoilea, float altreilea ){
-        double rez = (primul+aldoilea+altreilea)/3d;
-        return rez;
-    }
-    public static double restul (double primul, int aldoilea){
-        double rez = primul % aldoilea;
-        return rez;
-    }
-    static double F_C (double F){
-        double C = (5/9d) * (F - 32);
-        return C;
-    }
-    static double InchtoMeter (double Inch){
-        double M = Inch / 39.370;
-        return M;
-    }
+        // Laborator 11 exercitiu 5
+        String textInput = "FastTrackIT";
+        int numberInput = 3;
+        System.out.println(op.comparison1(textInput, numberInput));
 
-    static float TimpSecunde (float hour, float min, float sec){
-        float Sec = hour * 3600 + min * 60 + sec  ;
-        return Sec;
-    }
-    static float DistMetri (float distanta ){
-        float D = distanta;
-        return D;
-    }
+        // Laborator 11 exercitiu 6
 
-    static float DistKilometrii (float distanta ) {
-        float D = distanta / 1000;
-        return D;
-    }
-    static float DistMile (float distanta ) {
-        float D = (float) (distanta / 1000 * (1/1.609));
-        return D;
-    }
+        int snownumber = 6;
+        System.out.println(op.snowFallAnalysisI(snownumber));
+        System.out.println(op.snowFallAnalysisII(snownumber));
 
+        // Laborator 11 exercitiu 7
+        float num = 2;
+        System.out.println(op.number(num));
 
+        // Laborator 11 exercitiu 8
+
+        int anynumber = 4;
+        switch (anynumber) {
+            case 1:
+                System.out.println("The number is: 1 !");
+                break;
+            case 60:
+                System.out.println("The number is: 60!");
+                break;
+            case 85:
+                System.out.println("The number is: 85!");
+                break;
+            case 4:
+                System.out.println("The number is: 4!");
+                break;
+            case 15:
+                System.out.println("The number is: 15!");
+                break;
+            case 6:
+                System.out.println("The number is: 6!");
+                break;
+            case 22:
+                System.out.println("The number is: 22!");
+            default:
+                System.out.println("Not in 1, 60, 85, 4, 15, 6, 22");
+        }
+
+        // Laborator 11 exercitiu 9
+        int number2 = 15;
+        System.out.println(op.isNumberEven(number2));
+
+        // Laborator 11 exercitiu 10
+        int varsta = 20;
+        System.out.println("Persoana are drept la vot:" + op.isEligibleToVote(varsta));
+
+        // Laborator 11 exercitiu 11
+        int xI= 20;
+        int yI=800;
+        int zI=40;
+
+        System.out.println("Cel mai mare numar:" + op.biggestOfThree(xI,yI, zI));
+    }
 }
+
 
