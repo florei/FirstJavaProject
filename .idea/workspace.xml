@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7492e96b-e34b-4c55-a15b-31220c8e94dd" name="Changes" comment="Tema 10.2 (completare)">
-      <change afterPath="$PROJECT_DIR$/src/LogicalOp.java" afterDir="false" />
+    <list default="true" id="7492e96b-e34b-4c55-a15b-31220c8e94dd" name="Changes" comment="Tema 11.1">
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/AnimalsFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/AppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Owner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/RecreationalActivities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Vet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +46,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.AppMain">
+    <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnimalRescue.AppMain" />
+      <module name="FirstJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AnimalRescue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lab11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab11" />
       <module name="FirstJavaProject" />
@@ -60,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppMain" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Lab11" />
       </list>
@@ -123,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666523786013</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Tema 11.1">
+      <created>1666549156244</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666549156244</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +169,7 @@
     <MESSAGE value="Tema 10.1" />
     <MESSAGE value="Tema 10.2" />
     <MESSAGE value="Tema 10.2 (completare)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tema 10.2 (completare)" />
+    <MESSAGE value="Tema 11.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tema 11.1" />
   </component>
 </project>
