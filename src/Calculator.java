@@ -1,6 +1,6 @@
 public class Calculator {
-    public int inmultire (int first, int second) {
-        int result = first * second;
+    public int inmultire (float first, int second) {
+        int result = (int) (first * second);
         return result;
     }
 
@@ -12,12 +12,12 @@ public class Calculator {
         float result = first + second;
         return result;
     }
-    public int scadere (int first, int second) {
-        int result = first - second;
+    public float scadere (float first, float second) {
+        float result = first - second;
         return result;
     }
-    public float impartire (int first, float second) {
-        float result = first * second;
+    public float impartire (float first, float second) {
+        float result = first / second;
         return result;
     }
 }
