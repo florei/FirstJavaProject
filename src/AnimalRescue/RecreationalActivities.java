@@ -2,6 +2,12 @@ package AnimalRescue;
 
 public class RecreationalActivities {
 
-    String activityName = "Running after the ball";
+    private String activityName;
 
+    public void setActivityName(String activityName){
+        this.activityName = activityName;
+    }
+    public String getActivityName(){
+        return activityName;
+    }
 }

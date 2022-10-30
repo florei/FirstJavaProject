@@ -2,13 +2,48 @@ package AnimalRescue;
 
 public class Dog {
 
-    String name = "Cic";
-    int age = 3;
-    int healthLevel = 2;
-    int hungryLevel= 3;
-    String favoriteFood = "Pedigree";
-    String favoriteActivity = "Running after the ball";
+    private String name;
+    private int age;
+    private int healthLevel;
+    private int hungryLevel;
+    private String favoriteFood;
+    private String favoriteActivity;
 
-
+public void setName(String name){
+    this.name = name;
+}
+public String getName(){
+return name;
+}
+public void setAge (int age){
+    this.age = age;
+}
+public int getAge(){
+    return age;
+}
+public void setHealthLevel(int healthLevel){
+    this.healthLevel = healthLevel;
+    }
+public int getHealthLevel(){
+    return healthLevel;
+}
+public void setHungryLevel (int hungryLevel){
+    this.hungryLevel = hungryLevel;
+}
+public int getHungryLevel(){
+    return hungryLevel;
+}
+public void setFavoriteFood( String favoriteFood){
+    this.favoriteFood = favoriteFood;
+}
+public String getFavoriteFood(){
+    return favoriteFood;
+}
+public void setFavoriteActivity(String favoriteActivity){
+    this.favoriteActivity = favoriteActivity;
+}
+public String getFavoriteActivity(){
+    return favoriteActivity;
+}
 
 }
