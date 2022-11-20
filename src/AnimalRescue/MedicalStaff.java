@@ -1,20 +1,22 @@
 package AnimalRescue;
 
 public class MedicalStaff {
-    private String vetName;
-    private String speciality;
+    private String name;
+
+
+
+    public void expertness (){
+        System.out.println("The medical staff has different specializations");
+    }
 
 
     public void setVetName(String vetName){
-        this.vetName = vetName;
+        this.name = vetName;
     }
     public String getVetName(){
-        return vetName = vetName;
+        return name = name;
     }
-    public void setSpeciality (String speciality){
-        this.speciality = speciality;
-    }
-    public String getSpeciality (){
-        return speciality;
-    }
+
+
+
 }

@@ -1,30 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7492e96b-e34b-4c55-a15b-31220c8e94dd" name="Changes" comment="Tema 12.2 Aplicatia &quot;Animal Rescue&quot;">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/BeagleDogs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Birds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/BullDogs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/CatFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/DogFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/FishFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/MedicalStaff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Nurse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/RagdollCats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Reptiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/SmallAnimals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/SphynxCats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Toys.java" afterDir="false" />
+    <list default="true" id="7492e96b-e34b-4c55-a15b-31220c8e94dd" name="Changes" comment="Tema 13.2 Inheritance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/AnimalsFood.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AnimalRescue/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/AppMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Birds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Birds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/MedicalStaff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/MedicalStaff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Nurse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Nurse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Reptiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Reptiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/SmallAnimals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/SmallAnimals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Vet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Vet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LogicalOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicalOp.java" afterDir="false" />
@@ -183,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667140151350</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Tema 13.2 Inheritance">
+      <created>1668960006767</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668960006767</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +204,7 @@
     <MESSAGE value="Tema 11.2" />
     <MESSAGE value="Tema 12.2" />
     <MESSAGE value="Tema 12.2 Aplicatia &quot;Animal Rescue&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tema 12.2 Aplicatia &quot;Animal Rescue&quot;" />
+    <MESSAGE value="Tema 13.2 Inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tema 13.2 Inheritance" />
   </component>
 </project>

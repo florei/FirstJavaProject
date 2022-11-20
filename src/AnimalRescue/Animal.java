@@ -2,6 +2,7 @@ package AnimalRescue;
 
 public class Animal {
 
+
     private String gender;
     private String name;
     private int age;
@@ -9,6 +10,13 @@ public class Animal {
     private int hungryLevel;
     private String favoriteFood;
     private String favoriteActivity;
+
+   public void animalsound (){
+       System.out.println( "Animals sounds different");
+   }
+   public void activities (){
+       System.out.println("Animals have different activities");
+   }
 
     public void setGender (String gender){
         this.gender = gender;

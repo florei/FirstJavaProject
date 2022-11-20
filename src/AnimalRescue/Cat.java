@@ -42,7 +42,12 @@ public class Cat extends Animal {
         return chattering;
     }
 
+    public void animalsound (){
+        System.out.println("Cat's sound: meow, meow");
+    }
 
-
-
+    @Override
+    public void activities() {
+        System.out.println("Cats activity: purring ");
+    }
 }

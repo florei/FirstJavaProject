@@ -67,6 +67,40 @@ public class AppMain {
        kitty.setHissing("Low");
        System.out.println("Tendancy of hissing is:"+ kitty.getHissing());
 
+       Animal animals = new Animal();
+       animals.animalsound();
+       animals.activities();
+
+       Cat cats = new Cat();
+       cats.animalsound();
+       cats.activities();
+
+       Dog dogs = new Dog();
+       dogs.animalsound();
+       dogs.activities();
+
+       Reptiles snake = new Reptiles();
+       snake.animalsound();
+       snake.activities();
+
+       SmallAnimals guineaPig = new SmallAnimals();
+       guineaPig.animalsound();
+       guineaPig.activities();
+
+       Birds birds = new Birds();
+       birds.animalsound();
+       birds.activities();
+
+       Fish fish = new Fish();
+       fish.animalsound();
+       fish.activities();
+
+       MedicalStaff medicalStaff = new MedicalStaff();
+       medicalStaff.expertness();
+       Nurse nurse = new Nurse();
+       nurse.expertness();
+       Vet vet = new Vet();
+       vet.expertness();
 
 
    }

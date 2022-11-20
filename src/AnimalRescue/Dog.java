@@ -32,4 +32,11 @@ public class Dog extends Animal {
         return dig;
     }
 
+    public void animalsound (){
+        System.out.println("Dog's sound: ham, ham");
+    }
+    public void activities (){
+        System.out.println("Dogs activity: digging");
+    }
+
 }
