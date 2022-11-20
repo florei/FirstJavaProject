@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7492e96b-e34b-4c55-a15b-31220c8e94dd" name="Changes" comment="Tema 13.2 Inheritance">
+    <list default="true" id="7492e96b-e34b-4c55-a15b-31220c8e94dd" name="Changes" comment="Tema 14.1 Polymorphism">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/AppMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Birds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Birds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Fish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/MedicalStaff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/MedicalStaff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Nurse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Nurse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Reptiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Reptiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/SmallAnimals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/SmallAnimals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Vet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Vet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LogicalOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicalOp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -56,7 +45,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AppMain">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnimalRescue.AppMain" />
       <module name="FirstJavaProject" />
@@ -86,8 +75,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppMain" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.AppMain" />
         <item itemvalue="Application.Lab11" />
       </list>
     </recent_temporary>
@@ -178,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668960006767</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Tema 14.1 Polymorphism">
+      <created>1668966768319</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668966768319</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +201,7 @@
     <MESSAGE value="Tema 12.2" />
     <MESSAGE value="Tema 12.2 Aplicatia &quot;Animal Rescue&quot;" />
     <MESSAGE value="Tema 13.2 Inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tema 13.2 Inheritance" />
+    <MESSAGE value="Tema 14.1 Polymorphism" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tema 14.1 Polymorphism" />
   </component>
 </project>

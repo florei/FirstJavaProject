@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -90,7 +93,7 @@ float adun = operatii.adunare(f1,s1);
   public static void printMyname() {
     System.out.println("Hello\nFlorentina");
   }*/
-        // Laborator 11 exercitiu 3
+       /* // Laborator 11 exercitiu 3
         LogicalOp op = new LogicalOp();
         int biggest = op.checkBiggerNumber(6, 10);
         System.out.println("The bigger number is:" + biggest);
@@ -157,7 +160,53 @@ float adun = operatii.adunare(f1,s1);
         int zI=40;
 
         System.out.println("Cel mai mare numar:" + op.biggestOfThree(xI,yI, zI));
+
+        System.out.println("Exercitii Tema Laborator 12");
+
+        op.printFrom1to100(1);
+        op.printFrom1tominus100(-50);*/
+
+        System.out.println("Tema 14.2- Exercitiul 1");
+
+        List<String> myList = new ArrayList<String>();
+        myList.add("First element");
+        myList.add("Second element");
+        myList.add("Third element");
+        myList.add("Fourth element");
+
+
+        //System.out.println(myList);
+
+        LogicalOp operations = new LogicalOp();
+        operations.displaymyList(myList);
+
+        System.out.println("Tema 14.2- Exercitiul 2");
+
+        List<Integer> numberList = new ArrayList<Integer>();
+        numberList.add(11);
+        numberList.add(23);
+        numberList.add(22);
+        numberList.add(10);
+        numberList.add(20);
+
+        operations.endParameterList(numberList, 6);
+        System.out.println(numberList);
+
+        System.out.println("Tema 14.2- Exercitiul 5");
+        operations.threeParameters(myList, 2, "New parameter added to the second position" );
+        System.out.println(myList);
+
+        System.out.println("Tema 14.2- Exercitiul 3");
+        operations.allListParameters(numberList, 3);
+
+        System.out.println("Tema 14.2- Exercitiul 6");
+        operations.swapParameter(myList, "element");
+
+        System.out.println("Tema 14.2- Exercitiul 8");
+        operations.theBiggestNumber(numberList);
+
     }
+
 }
 
 
