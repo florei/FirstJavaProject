@@ -1,7 +1,6 @@
 package AnimalRescue;
 
-public class AnimalsFood {
-
+public class Food {
     private String foodName;
     private int price;
     private int qty;

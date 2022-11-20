@@ -2,9 +2,9 @@ package AnimalRescue;
 
 public class AppMain {
 
-    public static void main(String[] args) {
+   public static void main(String[] args) {
 
-        Dog animal = new Dog();
+      /*  Dog animal = new Dog();
 
 
         animal.setName("Rex");
@@ -16,7 +16,7 @@ public class AppMain {
         System.out.println("The age of the pet is:"+ animal.getAge());
 
 
-        AnimalsFood food = new AnimalsFood();
+        CatFood food = new CatFood();
 
         food.setPrice(6);
         System.out.println("The price of the product is (euro):" + food.getPrice());
@@ -46,6 +46,28 @@ public class AppMain {
         details.setSpeciality("Surgery");
 
         System.out.println("The vet speciality is:" + details.getSpeciality());
+*/
 
-    }
+       BullDogs max = new BullDogs();
+       max.setName("Max");
+       System.out.println("The BullDog's name is:" + max.getName());
+       System.out.println("BullDog Particularities:");
+       max.featuresBullDog();
+       max.setSnore("High");
+       System.out.println("Tendancy to snore:" + max.getSnore());
+
+       RagdollCats kitty = new RagdollCats();
+
+       kitty.setName("Kitty");
+       System.out.println("The RaddollCat's name is:" + kitty.getName());
+       kitty.setAge(5);
+       System.out.println("The RaddollCat's age is:" + kitty.getAge());
+       System.out.println("RagdollCat features are:");
+       kitty.featuresRagdollCat();
+       kitty.setHissing("Low");
+       System.out.println("Tendancy of hissing is:"+ kitty.getHissing());
+
+
+
+   }
 }

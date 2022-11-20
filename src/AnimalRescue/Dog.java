@@ -1,49 +1,35 @@
 package AnimalRescue;
 
-public class Dog {
+public class Dog extends Animal {
 
-    private String name;
-    private int age;
-    private int healthLevel;
-    private int hungryLevel;
-    private String favoriteFood;
-    private String favoriteActivity;
+    private String drool;
+    private String snore;
+    private String bark;
+    private String dig;
 
-public void setName(String name){
-    this.name = name;
-}
-public String getName(){
-return name;
-}
-public void setAge (int age){
-    this.age = age;
-}
-public int getAge(){
-    return age;
-}
-public void setHealthLevel(int healthLevel){
-    this.healthLevel = healthLevel;
+    public void setDrool (String drool){
+        this.drool= drool;
     }
-public int getHealthLevel(){
-    return healthLevel;
-}
-public void setHungryLevel (int hungryLevel){
-    this.hungryLevel = hungryLevel;
-}
-public int getHungryLevel(){
-    return hungryLevel;
-}
-public void setFavoriteFood( String favoriteFood){
-    this.favoriteFood = favoriteFood;
-}
-public String getFavoriteFood(){
-    return favoriteFood;
-}
-public void setFavoriteActivity(String favoriteActivity){
-    this.favoriteActivity = favoriteActivity;
-}
-public String getFavoriteActivity(){
-    return favoriteActivity;
-}
+    public String getDrool(){
+        return drool;
+    }
+    public void setSnore(String snore){
+        this.snore = snore;
+    }
+    public String getSnore(){
+        return snore;
+    }
+    public void setBark (String bark){
+        this.bark = bark;
+    }
+    public String getBark (){
+        return bark;
+    }
+    public void setDig (String dig){
+        this.dig = dig;
+    }
+    public String getDig(){
+        return dig;
+    }
 
 }

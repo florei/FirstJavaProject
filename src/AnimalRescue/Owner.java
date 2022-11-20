@@ -5,6 +5,7 @@ public class Owner {
     private String nameOwner;
     private int amountOfMoney;
 
+
     public void setNameOwner (String nameOwner){
         this.nameOwner = nameOwner;
     }
