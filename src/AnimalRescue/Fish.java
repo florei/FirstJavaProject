@@ -11,4 +11,20 @@ public class Fish extends Animal {
     public void activities() {
         System.out.println("The main activity of a fish is swimming");
     }
+
+    @Override
+    public void eat() {
+        System.out.println("The most popular fish food is fish flakes");
+
+    }
+
+    @Override
+    public void run() {
+
+    }
+
+    @Override
+    public void sleep() {
+
+    }
 }

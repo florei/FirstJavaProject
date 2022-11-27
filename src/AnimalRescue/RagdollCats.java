@@ -6,4 +6,28 @@ public class RagdollCats extends Cat {
         System.out.println("Quiet cats and rarely demanding");
     }
 
+    @Override
+    public void purring() {
+
+    }
+
+    @Override
+    public void meow() {
+
+    }
+
+    @Override
+    public void hissing() {
+
+    }
+
+    @Override
+    public void yowl() {
+
+    }
+
+    @Override
+    public void chattering() {
+
+    }
 }

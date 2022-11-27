@@ -10,4 +10,19 @@ public class Reptiles extends Animal {
         System.out.println("Snakes activity: sleep coiled");
     }
 
+    @Override
+    public void eat() {
+
+    }
+
+    @Override
+    public void run() {
+
+    }
+
+    @Override
+    public void sleep() {
+
+    }
+
 }

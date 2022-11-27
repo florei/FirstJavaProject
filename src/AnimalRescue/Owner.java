@@ -1,21 +1,19 @@
 package AnimalRescue;
 
-public class Owner {
+public abstract class Owner {
 
-    private String nameOwner;
-    private int amountOfMoney;
+    public abstract void nameOwner ();
 
 
-    public void setNameOwner (String nameOwner){
-        this.nameOwner = nameOwner;
-    }
-    public String getNameOwner(){
-        return nameOwner;
-    }
-    public void setAmountOfMoney (int amountOfMoney){
-        this.amountOfMoney = amountOfMoney;
-    }
-    public int getAmountOfMoney(){
-        return amountOfMoney;
-    }
+    public abstract void ageOfTheOwner ();
+
+    public abstract void nationality ();
+
+    public abstract void telephoneNumber ();
+
+    public abstract void address ();
+    public abstract void amountOfMoney ();
+
+
+
 }

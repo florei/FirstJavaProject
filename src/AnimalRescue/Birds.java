@@ -11,4 +11,19 @@ public class Birds extends Animal {
     public void activities() {
         System.out.println("The main activity of the birds is flying");
     }
+
+    @Override
+    public void eat() {
+
+    }
+
+    @Override
+    public void run() {
+
+    }
+
+    @Override
+    public void sleep() {
+
+    }
 }

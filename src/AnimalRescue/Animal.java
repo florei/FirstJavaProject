@@ -1,6 +1,6 @@
 package AnimalRescue;
 
-public class Animal {
+public abstract class Animal {
 
 
     private String gender;
@@ -11,14 +11,13 @@ public class Animal {
     private String favoriteFood;
     private String favoriteActivity;
 
-   public void animalsound (){
-       System.out.println( "Animals sounds different");
-   }
-   public void activities (){
-       System.out.println("Animals have different activities");
-   }
+   public abstract void animalsound ();
+   public abstract void activities ();
+   public abstract void eat ();
+   public abstract void run ();
+   public abstract void sleep ();
 
-    public void setGender (String gender){
+   public void setGender (String gender){
         this.gender = gender;
     }
     public String getGender(){

@@ -3,6 +3,11 @@ package AnimalRescue;
 public class Vet extends MedicalStaff {
 
     @Override
+    public void name() {
+
+    }
+
+    @Override
     public void expertness() {
         System.out.println("The main role of the vet is Surgical operations");
     }

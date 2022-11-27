@@ -2,7 +2,7 @@ package AnimalRescue;
 
 public class AppMain {
 
-   public static void main(String[] args) {
+    public static void main(String[] args) {
 
       /*  Dog animal = new Dog();
 
@@ -48,60 +48,48 @@ public class AppMain {
         System.out.println("The vet speciality is:" + details.getSpeciality());
 */
 
-       BullDogs max = new BullDogs();
-       max.setName("Max");
-       System.out.println("The BullDog's name is:" + max.getName());
-       System.out.println("BullDog Particularities:");
-       max.featuresBullDog();
-       max.setSnore("High");
-       System.out.println("Tendancy to snore:" + max.getSnore());
+        BullDogs max = new BullDogs();
+        max.setName("Max");
+        System.out.println("The BullDog's name is:" + max.getName());
+        System.out.println("BullDog Particularities:");
+        max.featuresBullDog();
 
-       RagdollCats kitty = new RagdollCats();
+        RagdollCats kitty = new RagdollCats();
 
-       kitty.setName("Kitty");
-       System.out.println("The RaddollCat's name is:" + kitty.getName());
-       kitty.setAge(5);
-       System.out.println("The RaddollCat's age is:" + kitty.getAge());
-       System.out.println("RagdollCat features are:");
-       kitty.featuresRagdollCat();
-       kitty.setHissing("Low");
-       System.out.println("Tendancy of hissing is:"+ kitty.getHissing());
-
-       Animal animals = new Animal();
-       animals.animalsound();
-       animals.activities();
-
-       Cat cats = new Cat();
-       cats.animalsound();
-       cats.activities();
-
-       Dog dogs = new Dog();
-       dogs.animalsound();
-       dogs.activities();
-
-       Reptiles snake = new Reptiles();
-       snake.animalsound();
-       snake.activities();
-
-       SmallAnimals guineaPig = new SmallAnimals();
-       guineaPig.animalsound();
-       guineaPig.activities();
-
-       Birds birds = new Birds();
-       birds.animalsound();
-       birds.activities();
-
-       Fish fish = new Fish();
-       fish.animalsound();
-       fish.activities();
-
-       MedicalStaff medicalStaff = new MedicalStaff();
-       medicalStaff.expertness();
-       Nurse nurse = new Nurse();
-       nurse.expertness();
-       Vet vet = new Vet();
-       vet.expertness();
+        kitty.setName("Kitty");
+        System.out.println("The RaddollCat's name is:" + kitty.getName());
+        kitty.setAge(5);
+        System.out.println("The RaddollCat's age is:" + kitty.getAge());
+        System.out.println("RagdollCat features are:");
 
 
-   }
+        Reptiles snake = new Reptiles();
+        snake.animalsound();
+        snake.activities();
+
+        GuineaPig guineaPig = new GuineaPig();
+        guineaPig.animalsound();
+        guineaPig.activities();
+        guineaPig.sleep();
+
+        Birds birds = new Birds();
+        birds.animalsound();
+        birds.activities();
+
+        Fish fish = new Fish();
+        fish.animalsound();
+        fish.activities();
+        fish.eat();
+
+
+        Nurse nurse = new Nurse();
+        nurse.expertness();
+        Vet vet = new Vet();
+        vet.expertness();
+
+        Women woman = new Women();
+        woman.nameOwner();
+        woman.ageOfTheOwner();
+        woman.telephoneNumber();
+    }
 }
