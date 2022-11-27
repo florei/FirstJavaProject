@@ -9,4 +9,11 @@ public class Main1 {
         Read read = new Read();
         System.out.println("Numarul introdus este:" + read.getDouble());
     }
+
+    int [] myArray = {1, 10, 25, 60};
+
+    Read read = new Read();
+
+/*read.getInt(); */
+
 }
